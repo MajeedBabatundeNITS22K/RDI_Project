@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://github.com/MajeedBabatundeNITS22K/RDI_Project/blob/main/pexels-szaboviktor-3227984.jpg?raw=true') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(44, 62, 80, 0.9);
+    padding: 15px;
+    border-bottom: 2px solid #1abc9c;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Search Bar */
+#searchForm input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#searchForm button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#searchForm button:hover {
+    background-color: #16a085;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#city-info {
+    margin: 10px 0;
+}
+
+/* Current Weather */
+#weather-info {
+    background-color: rgba(44, 62, 80, 0.85);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#weather-description, #city-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#weather-temperature {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Forecast Section */
+#forecast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.forecast-box {
+    background-color: rgba(44, 62, 80, 0.85);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.forecast-box:hover {
+    transform: scale(1.05);
+}
+
+.forecast-box img {
+    width: 50px;
+    height: 50px;
+}
+
+.forecast-box h3 {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #1abc9c;
+}
+
+.forecast-box p {
+    margin: 5px 0;
+}

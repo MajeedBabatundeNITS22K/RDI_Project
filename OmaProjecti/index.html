@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5-Day Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <form id="searchForm">
+            <input type="text" id="city" placeholder="Enter city name" />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main>
+        <div id="city-info">
+            <h1 id="greeting">City Weather</h1>
+        </div>
+        <div id="weather-info">
+            <h2>City Information</h2>
+            <img id="current-weather-icon" class="weather-icon" src="https://github.com/MajeedBabatundeNITS22K/RDI_Project/blob/main/istockphoto-477110708-612x612.jpg?raw=true" alt="Weather Icon" style="border-radius: 50%;">
+
+            <p id="city-description">Fetching city information...</p>
+        </div>
+        <div id="forecast">
+            <!-- 5-Day Forecast dynamically inserted here -->
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
